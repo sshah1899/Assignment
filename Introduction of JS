@@ -1,0 +1,23 @@
+//Hello World : Print Hello World! in the console below.
+console.log("Hello World!");
+
+//Printing Input : Print the input specified: input = "This is the first and only line of input string".
+var input = "This is the first and only line of input string";
+console.log(input);
+
+//Declaring variable : Using javascript variables, declare a variable named newVariable and assign it the following string, "AlmaBetter".
+var newVariable;
+newVariable = 'AlmaBetter';
+console.log(newVariable);
+
+
+//Type Conversion : Implicit type conversion and Explicit type conversion
+let string = "777";
+let number = 8;
+
+//Implicit type conversion: Declare string and add integer. Notice how javascript implicitly converts integer to string.
+console.log(string+number);
+
+//Explicit type conversion: Declare string and add integer by explicitly converting string to integer.
+let sum1 = Number(string);
+console.log(sum1+number);
