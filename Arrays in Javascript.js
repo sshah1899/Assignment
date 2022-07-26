@@ -9,7 +9,7 @@ console.log(strings.map(string => string.toUpperCase()));
 
 //Write JavaScript statements that will produce the output mentioned in output format from array in input format.
 const inputWords = ["spray", "limit", "elite", "exuberant", "destruction", "present"];
-console.log(inputWords.filter(abc => abc.length > 6))
+console.log(inputWords.filter(abc => abc.length > 6));
 
 //Use the .map() method on the heros array to return a new array.
 //1.The new array should rename the 'name' key to 'hero'.
@@ -20,8 +20,7 @@ console.log(inputWords.filter(abc => abc.length > 6))
 const heros = [ { name: 'Spider-Man' }, { name: 'Thor' }, { name: 'Black Panther' }, { name: 'Captain Marvel' }, { name: 'Silver Surfer' } ];
 
 indexofheros =  heros.map((hero, index) => {return {id: index, heroname: hero.name }} );
-console.log(indexofheros)
-
+console.log(indexofheros);
 
 
 
